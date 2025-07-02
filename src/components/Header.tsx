@@ -78,6 +78,8 @@ const Header = () => {
     { name: 'Contact Us', href: '/contact', isHash: false, homePageOnly: false },
   ];
 
+  console.log(navItems)
+
   const filteredNavItems = navItems.filter(item =>
     !item.homePageOnly || location.pathname === '/'
   );
