@@ -71,6 +71,7 @@ const Products = () => {
       }
     }
   }, [activeProduct]);
+  console.log(activeProduct)
 
 
   const cardVariants = {
